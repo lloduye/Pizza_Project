@@ -1,57 +1,9 @@
-#menuBG {
-    width: 400px;
-    height: 470px;
-    margin: 10px auto;
-}
+/*Cover image.*/
+.mainimage {
+height: 400px;
+background-image: url("../images/main.jpeg");
 
-#frmMenu {
-    width: 400px;
-    height: 200px;
 }
-
-#totalPrice {
-    width: 200px;
-    height: 190px;
-    margin: 0 auto;
-    float: right;
-}
-
-.left {
-    width: 200px;
-    height: 200px;
-    float: left;
-}
-
-.middle {
-    width: 200px;
-    height: 200px;
-    float: center;
-}
-.right {
-    width: 200px;
-    height: 200px;
-    float: right;
-}
-
-#showText {
-    width: 200px;
-    height: 190px;
-    margin: 0px auto;
-    float: left;
-}
-
-#cart {
-    top: 0; margin: 0px auto;
-    width: 400px;
-    height: 200px;
-}
-
-#btnOrder {
-    margin: 10px 0px 0px 100px;
-    width: 100px;
-    height: 40px;
-}
-
 /*Assigning a background color to <body> element.*/
 body {
     background-color: teal;   
@@ -63,6 +15,7 @@ h1 {
 /*Assigning a color to all <h1> elements.*/
 h1 {
     color:#fff;
+    text-align: left;
 }
 /*Assigning a font family to all <h3> elements.*/
 h3 {
@@ -80,3 +33,60 @@ div {
 div {
     color: white;
 }
+
+#menuBG { /*Menu background position*/
+	width:400px;
+	height:470px;
+	margin:10px auto;
+	}
+
+#frmMenu { /*Form menu*/
+	width:600px;
+	height:200px;
+	}
+
+#totalPrice { /*Total price*/
+	width:200px;
+	height:190px;
+	margin:20px auto;
+	float:right;
+	}
+
+.left { /*items float left*/
+	width:200px;
+	height:200px;
+	float:left;
+	}
+
+.center { /*Items float left*/
+	width:200px;
+	height:200px;
+	float:left;
+	}
+	
+.right { /*Items float right*/
+	width:200px;
+	height:200px;
+	float:right;
+	}
+
+#showText {
+	width:200px;
+	height:190px;
+	margin:0px auto;
+	float:left;
+	}
+		
+#cart { /*Items cart*/
+	top:0;margin:0px auto;
+	width:400px;
+	height:200px;
+    }
+	
+#btnOrder { /*Order button*/
+	margin:10px 0px 0px 100px;
+	width:100px;
+	height:40px;
+	display: block;
+	margin: 25px auto;
+	}
